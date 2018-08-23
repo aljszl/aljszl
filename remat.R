@@ -1,4 +1,8 @@
 remat=function(snb,smat){
+  # you can use this function to transform the sptial weight list to a matrix
+  # snb is the neighbours list you create by function poly2nb or knn2nb and so on
+  # if you use snb to create the queen weight matrix,you should add zero.police=TRUE
+  # smat ist the Spatial weights for neighbours lists you create by function nb2listw
   List=length(snb)
   rmat=matrix(0,nrow=List,ncol=List)
   Vec=rep(0,List)
