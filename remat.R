@@ -1,4 +1,5 @@
 remat=function(snb,smat){
+  # this is R code
   # you can use this function to transform the sptial weight list to a matrix
   # snb is the neighbours list you create by function poly2nb or knn2nb and so on
   # if you use poly2nb to create a queen weight matrix,you should add zero.police=TRUE
